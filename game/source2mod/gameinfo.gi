@@ -27,6 +27,7 @@
 		//
 		SearchPaths
 		{
+			Game				source2mod/vpks/source2mod.vpk
 			Game				source2mod
 			Game				hlvr
 			Game				core
