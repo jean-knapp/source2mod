@@ -578,7 +578,7 @@ GameFileWeaponInfo_t
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_Pulse_Rifle"
 	"viewmodel"				"models/weapons/v_irifle.vmdl"
-	"playermodel"			"models/weapons/vr_irifle/vr_irifle.vmdl"
+	"playermodel"			"models/weapons/w_irifle.vmdl"
 	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_smgs.vpcf"
 	"tracer_particle"		"particles/tracer_fx/smg_tracer.vpcf"
 	"anim_prefix"			"ar2"
@@ -873,7 +873,7 @@ GameFileWeaponInfo_t
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_Shotgun"
 	"viewmodel"				"models/weapons/v_shotgun.vmdl"
-	"playermodel"			"models/weapons/vr_shotgun/vr_shotgun.vmdl"
+	"playermodel"			"models/weapons/w_shotgun.vmdl"
 	"anim_prefix"			"shotgun"
 	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_heavy_shotgun.vpcf"
 	"tracer_particle"		"particles/tracer_fx/alyxgun_cannon_tracer.vpcf"
@@ -949,7 +949,7 @@ GameFileWeaponInfo_t
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_SMG1"
 	"viewmodel"				"models/weapons/v_smg1.vmdl"
-	"playermodel"			"models/weapons/w_ipistol/ipistol_wm.vmdl"	
+	"playermodel"			"models/weapons/w_smg1.vmdl"	
 	"anim_prefix"			"smg2"
 	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_smg_heavy_fire_light.vpcf"
 	"tracer_particle"		"particles/tracer_fx/smg_tracer.vpcf"

@@ -27,11 +27,16 @@
 		//
 		SearchPaths
 		{
-			Game				source2mod/vpks/source2mod.vpk
+			// Mod paths
 			Mod					source2mod_template
 			Write				source2mod_template
 			Game				source2mod_template
-			Game				source2mod
+
+			// source2mod paths
+			Game				source2mod/vpks/source2mod.vpk
+			Game				source2mod/assets
+
+			// Half-Life Alyx paths
 			Game				hlvr
 			Game				core
 			AddonRoot			|all_source_engine_paths|hlvr_addons
