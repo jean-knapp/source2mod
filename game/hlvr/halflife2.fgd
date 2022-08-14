@@ -2424,21 +2424,21 @@
 ]
 
 @PointClass base(Weapon) editormodel("models/weapons/w_crowbar.vmdl") = weapon_crowbar : "Crowbar" []
-@PointClass base(Weapon) editormodel("models/weapons/vr_baton/vr_baton.vmdl") = weapon_stunstick : "StunStick" []
+@PointClass base(Weapon) editormodel("models/weapons/w_stunbaton.vmdl") = weapon_stunstick : "StunStick" []
 @PointClass base(Weapon) editormodel("models/items/boxsrounds.vmdl") = weapon_pistol : "Pistol" []
-@PointClass base(Weapon) editormodel("models/weapons/vr_irifle/vr_irifle.vmdl") = weapon_ar2 : "Assault Rifle 2" []
+@PointClass base(Weapon) editormodel("models/weapons/w_irifle.vmdl") = weapon_ar2 : "Assault Rifle 2" []
 @PointClass base(Weapon) editormodel("models/weapons/w_rocket_launcher.vmdl") = weapon_rpg : "Missile Launcher" []
-@PointClass base(Weapon) editormodel("models/weaponsmodels/weapons/vr_smg/vr_smg.vmdl") = weapon_smg1 : "SMG1" []
+@PointClass base(Weapon) editormodel("models/weapons/w_smg1.vmdl") = weapon_smg1 : "SMG1" []
 
 @PointClass base(Weapon) editormodel("models/weapons/w_357.vmdl") = weapon_357 : "357" []
 @PointClass base(Weapon) editormodel("models/weapons/w_crossbow.vmdl") = weapon_crossbow : "Crossbow" []
 @PointClass base(Weapon) editormodel("models/weapons/w_crossbow.vmdl") = weapon_zipline : "Zipline" []
-@PointClass base(Weapon) editormodel("models/weapons/vr_shotgun/vr_shotgun.vmdl") = weapon_shotgun : "Shotgun" []
+@PointClass base(Weapon) editormodel("models/weapons/w_shotgun.vmdl") = weapon_shotgun : "Shotgun" []
 @PointClass base(Weapon) editormodel("models/weapons/w_grenade.vmdl") = weapon_frag : "Frag Grenade" []
 @PointClass base(Weapon) editormodel("models/weapons/w_physics.vmdl") = weapon_physcannon : "Physics Cannon" []
-@PointClass base(Weapon) editormodel("models/spore.vmdl") = weapon_bugbait: "Bug bait" []
-@PointClass base(Weapon) editormodel("models/weapons/W_Alyx_Gun.vmdl") = weapon_alyxgun: "Alyx Gun" []
-@PointClass base(Weapon) editormodel("models/weapons/W_annabelle.vmdl") = weapon_annabelle: "Annabelle (Grigori)" []
+@PointClass base(Weapon) editormodel("models/weapons/w_bugbait.vmdl") = weapon_bugbait: "Bug bait" []
+@PointClass base(Weapon) editormodel("models/weapons/w_Alyx_Gun.vmdl") = weapon_alyxgun: "Alyx Gun" []
+@PointClass base(Weapon) editormodel("models/weapons/w_annabelle.vmdl") = weapon_annabelle: "Annabelle (Grigori)" []
 
 
 @SolidClass base(Trigger) = trigger_rpgfire :

@@ -363,7 +363,8 @@ GameFileWeaponInfo_t
 	//"playermodel"		"models/weapons/w_pistol.vmdl"
 	"playermodel"		"models/items/boxsrounds.vmdl"
 	"anim_prefix"		"pistol"
-	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_pistol_firec.vpcf"
+
+	"muzzleflash_particle"	"particles/ignore.vpcf"
 	"tracer_particle"		"particles/tracer_fx/pistol_tracer.vpcf"
 
 	"bucket"			"1"
@@ -2696,4 +2697,6 @@ Q –" Έ•  σ§* M  ί½	®#   B A	 KΒ  ώ
     ,
  Z—   ` |¬m Β   v  T T ¤  Α: Δ n ! η r  Ο Ι•A76 # 'H-
 S  
-;  J µΊ . < Ώb.Μξ¶-ªμ Y± ' Έ©0‘!Χ- > \ΖΎΛ	8Υ _ ¶P έξÿ
+;  J µΊ . < Ώb.Μξ¶-ªμ Y± ' Έ©0‘!Χ- > \ΖΎΛ	8Υ _ ¶P έξÿ          REDI   (  DATA0  ²   P                    ΐ                              Ψ                         7   ,ΓΘ   particles/strider/muzzleflash_strider.vpcf source2mod_template     $           ___OverrideInputData___ BinaryBlobArg                 CompileParticle KV3 Compiler Version           IsChildResource 3VKX†(&AO¶.] ήΖ                 b     “      
+  S   $ ς!_class CParticleSystemDefinition m_nBehaviorVers πcontrolPointConfigura/ s0 πame preview 	
+	 έξÿ
