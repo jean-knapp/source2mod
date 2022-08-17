@@ -360,8 +360,7 @@ GameFileWeaponInfo_t
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_Pistol"
 	"viewmodel"			"models/weapons/v_pistol.vmdl"
-	//"playermodel"		"models/weapons/w_pistol.vmdl"
-	"playermodel"		"models/items/boxsrounds.vmdl"
+	"playermodel"		"models/weapons/vr_pistol/vr_pistol.vmdl"
 	"anim_prefix"		"pistol"
 
 	"muzzleflash_particle"	"particles/ignore.vpcf"
@@ -583,7 +582,7 @@ GameFileWeaponInfo_t
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_Pulse_Rifle"
 	"viewmodel"				"models/weapons/v_irifle.vmdl"
-	"playermodel"			"models/weapons/w_irifle.vmdl"
+	"playermodel"			"models/weapons/vr_irifle/vr_irifle.vmdl"
 	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_smgs.vpcf"
 	"tracer_particle"		"particles/tracer_fx/smg_tracer.vpcf"
 	"anim_prefix"			"ar2"
@@ -878,7 +877,7 @@ GameFileWeaponInfo_t
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_Shotgun"
 	"viewmodel"				"models/weapons/v_shotgun.vmdl"
-	"playermodel"			"models/weapons/w_shotgun.vmdl"
+	"playermodel"			"models/weapons/vr_shotgun/vr_shotgun.vmdl"
 	"anim_prefix"			"shotgun"
 	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_heavy_shotgun.vpcf"
 	"tracer_particle"		"particles/tracer_fx/alyxgun_cannon_tracer.vpcf"
@@ -954,7 +953,7 @@ GameFileWeaponInfo_t
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_SMG1"
 	"viewmodel"				"models/weapons/v_smg1.vmdl"
-	"playermodel"			"models/weapons/w_smg1.vmdl"	
+	"playermodel"			"models/weapons/w_ipistol/ipistol_wm.vmdl"	
 	"anim_prefix"			"smg2"
 	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_smg_heavy_fire_light.vpcf"
 	"tracer_particle"		"particles/tracer_fx/smg_tracer.vpcf"
@@ -2551,7 +2550,7 @@ event HideCommentary
 	Animate 	HudCommentary 	Alpha	0 Linear 0.0 0.5
 }
 
->E          REDI   è   DATAğ   .D  P              „                                      ˜                         5   Q>>   soundevents/soundevents_weapons.vsndevts source2mod    $           ___OverrideInputData___ BinaryBlobArg              IsChildResource 3VK|té˜F¯òæ>µ7ç       ×  B  |: qF  E  @	    ó
+NE          REDI   ğ   DATA   .D  P                                                                              5   Q>>   soundevents/soundevents_weapons.vsndevts source2mod_template       $           ___OverrideInputData___ BinaryBlobArg          IsChildResource         3VK|té˜F¯òæ>µ7ç       ×  B  |: qF  E  @	    ó
                   $ S
     ó                     H  T Ó           (  \ \   S   h   ó                !  ó"   #   $   %   &   '   (   )@ S*   +À P ,T -X    ×.   /   0   1L W2   3X 4(@S5   6Ø 7Ø   Ó8   9   :   ;4 <D =ğ ›>   ?   @$  ßA   B   C   D< (Eˆ  „ F   SG   H ó6I   J   K   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z` ó[   \   ]   ^   _¤ S`   a¤ Ób   c   d   e îf   g   h   i ( j <h HÌI l k´0  T Sl   m4 Wn   oà kÌ  Hóp   q   r   s   tÔ   óu   v   w   x   y   z ó{   |   }   ~   ø   ÷€      ‚   ƒ   „   …\\
 \_†   ‡( ˆ(  ` ÿ‰   Š   ‹   Œ      8   ÿ      ‘   ’   “4   ß”   •   –   —0 ß˜   ™   š   ›0 œô _   (   ßŸ       ¡   ¢ˆ   _£   ¤X Ó¥   ¦   §   ¨` 0 © l Sª   «$W¬   ­( X . „ _®   ¯, _°   ±, _²   ³, _´   µ, _¶   ·\n¸   ¹ \ºX W»   ¼Œ½4 œ¬ÿ¾   ¿   À   Á   ÂÄ 8 ÿÃ   Ä   Å   Æ   Ç8 şÈ   É   Ê   Ë   Ì<4 ÷Í   Î   Ï   Ğ   Ñ°@¼@ À Ò Ó` PŸÔ   Õ   Ö$X_×   ØÜ_Ù   Ú, SÛ   Ü|  İ, ŞlÜlßp” ˆû
@@ -2697,6 +2696,34 @@ Q –" ¸•  ó§* M  ß½	®#   B A	 KÂ  ş
   ˜  ,
  Z—   ` |¬m Â   v  T T ¤  Á: Ä n ! ç r  Ï É•A76 # 'H-
 S  
-;  J µº . < ¿b.Ìî¶-ªì Y± ' ¸©Š0‘!×- > \Æ¾Ë	8Õ _ ¶P İîÿ          REDI   (  DATA0  ²   P                    À                              Ø                         7   ,ÃÈ   particles/strider/muzzleflash_strider.vpcf source2mod_template     $           ___OverrideInputData___ BinaryBlobArg                 CompileParticle KV3 Compiler Version           IsChildResource 3VKX†(&AO¶˜.] ŞÆ              š   b     “      
+;  J µº . < ¿b.Ìî¶-ªì Y± ' ¸©Š0‘!×- > \Æ¾Ë	8Õ _ ¶P İîÿŸ          REDI   ğ   DATA     P              Œ                                                                4   ç­é   soundevents/soundevents_player.vsndevts source2mod_template    $           ___OverrideInputData___ BinaryBlobArg              IsChildResource         3VK|té˜F¯òæ>µ7ç       f  =   Ô%  bÄ   -  ó                S     _	   
+0 S     0 ( _   $   ß         0 ß         0 ß         ` 0   “      , , ó
+       !   "   #   $   % „ Ó&   '   (   ) 0 “*   +   ,ìD   ÿ.   /   0   1   2   3   4   5   6ˆ 70 _8   9( _:   ;( n<   = X>X?X>( @P .A Ô îB   C   D   E \ F\  \ ¬ nG   H „ I,  H ÿJ   K   L   M   N8 ÷O   P   Q   R   S8 T8 U¸   V . $WW   Xğ[Y   ZD   ÷
+[   \   ]   ^   _   `   aˆ bˆ .c ˆ Wd   el 0 f4 g ¼ %  ÿh   i   j   k   l   m   n   o€  Óp   q   r   s <o<t0 ÿu   v   w   x   y   z   {   |   }D  û~      €      ‚   ƒ   „   …   †   ‡Ü ˆìß‰   Š   ‹   Œ4 î           ‘H È ’$  n“   ” ìn•   – ˜—˜˜˜—8 t  .™ °Sš   ›D `óœ         Ÿ     \ .™ Œû¡   ¢   £   ¤   ¥   ¦   §   ¨   ©   ªÔ.™  _«   ¬_­   ®( S¯   °àÌ  Ô±@ ²p.³ @ S´   µœ@ ş¶   ·   ¸   ¹   º   »   ¼   ½ ` _¾   ¿  (SÀ   Á¸  1™d Â¤ (Ãx™ +¹? ¿ ²	*Ğ¿  @é?43 Ó  à  ã ë` 8 !Y@ 4@@X  sìQ¸…ë± ©0 ˜   Ù  *\Âõ(ğ?gf î ° ‹
+x  $X #Àr`   ÉĞ ó0 P i@ÍÌ $ì? uñ§ÆK7‰éh u%Ûù~j¼ì õ ø_” ¿Ó?Ú,—Î9÷?-ÒÄ;À“å?±²¶)æ?jCş™Aüï?@”hÉãiÏP õ„ÀÊ¡E¶ã?¨[vˆØÔ?gQØEÑå? …ëQ¸åà 
+€ õ@HL2Player.Use type src1_2d volume limiter_on Òmax mixgroup ? ğ vsnd_files sounds/common/wpn_select.$  r ^Deny 0 Hdeny4 1 ¤FallDamage4 p !/d ˆ/fall_014 / .Bullet6 b 8 $ 
+2$ .3.€ OClaw6 Nclaw| " 2" 3ø /it,hc_bite{ % 2%  ªZ_Tentacle ïAntlion_PoisonZ p ®_projectil® / .2.“ òHeadcrab_Reviver_Ranged hlvr_start_multie @evenD  _E´prics us® 	D ğ2 Prop.Alyx_Radio_G 5setF ÂInterferenceB 2ë eh & 2& ÁE £Zombie_Zap™_rand_min  Vpitch  /ax… ?zapÕ * 2* 3* 4* 5* 6* 7* 8¯TStorm# £eath.Blind oAttackl d.  _b. "_z/ a/ 	v S AsphyxialK a& B ÛTeleport.Fail? t Y_fail
+HDash 5_Wi ğFoley.Body_movem|¤â¤default_3d¸~fade_ou!sh –& 2& 3Ï  «pÔ  M (opI û Sÿ Â force_from_D R f8 ,/t8 ó . 2. 3. 4è o_shortÜ / â 4  34  44 ×Ñ6 U ÿ_body child_names bG $lo>	XlloffÔ 'axÿ	 ĞÕ  Š_oldestq ooneshoW
+) 2) 3) 4) 5) 6¦7Arm|§?arm4 ¥1arm¹__leftz  r . OsideK Nrigh 	( »	( 2( 3( 4( 5( 6( 7d_MantlSm &# !# 3|  óow_Traverse Step_5·Ladder_SingŸ õ hysics/footstepk °metal_thin/ ´ 8 28 $38 $48 $58 $68 $78 $×	ÚWooden_á¯wood_crateá8 28 $38 $48 $58 $68 $78 $88 $9Í‚rtbeatBahth. >_baL1 21 3² 
+?umpL .um3 23 ¹arRingingLp6iår	 º 	 Ïd_send clean„ 
+Rear_ra &_lê cHandFXÔ_ocute !_Cí	a b” Khrtfˆ ˆhandfx/e3 i* `áá0par
+  9om_B¤ c6 Qtimer“
+ 	/ax¯ _sparkß 0 20 30 40 50 60 70 80 9Ş/_EH 9end?¯Gasmask_OnO	g /on6  Re1: 
+r# ÀâSprintNoPower ’B
+)t kentitys Asuitú_devicn S? ² 2 ÿ<_x1 -y1$ 2$ 2$ 3$ 3$ 4$ 4É s¯ Å `FlashLo¬pitems/f l 15 'ff »PickupWeapoM aammo_p M –		
+ ! 
+ E _) /      P 9  7 O $  ‰‰ #È ! ³ X ğ         A P İîÿÛ          REDI   è   DATAğ   Ë
+  P              ˆ                                      ˜                         0   ÿ`   soundevents/soundevents_ui.vsndevts source2mod_template    $           ___OverrideInputData___ BinaryBlobArg          IsChildResource 3VK|té˜F¯òæ>µ7ç         a   Ñ  b–   =  ó"                           	   
+      4 “      @ S   H \  S   `    _     _   \ S   ¸ < $ ^   @ | | ^    !<  " _#   $ _%   &t W'   (< & _)   * _+   , _-   . _/   0 W1   2  0  _3   4  _5   6  _7   8  _9   :  _;   <   ì>  _?   @  SA   Bü C$ D E,DWF   GL WH   Il B$ J$ ^K   L	ĞMd   Nô÷O   P   Q   R   S   TØD _U   VD 0WD ,_X   YD ,_Z   [D ,_\   ]D ,_^   _D ,_`   aD ,_b   cD ,Sd   eÄD .P 0 _f   g0 Sh   iT  j0 k¨ lH _m   nH 0_o   pH 4qH 0_r   sH 0St   uÌH œ4 _v   w| 4xH 0_y   zH 0_{   |_}   ~4 _   €4 _   ‚t4ƒH 0_„   …H 0_†   ‡¼4ˆT_‰   Š| 0_‹   ŒH 4H 0_   H 0S   ‘´H _’   “\ D
+h”   •  "Ğ? *I@ i B @T@š™ ¤É?ìQ¸…ë±?   43 Ó 6	§ "ø‘ˆ P•Àgf æ  à H€‡Ã@ ¸ i¸ sH¬Å§ ˜é8 /@ 8uÿwÔ 6u3¸æş—Ù  )è? 9ÀR@   `9ïÿcæ? %( ˜  !\sGÿËÜ Ø   x àP *€V P #©¿ ? ø=Z@PanoUI.Appear type hlvr_default_3d volume mixgroup UI enable_debug_radius  C_max8 Ì_falloff_min  & aspread    ñ4use_hrtf voice_layer ui should_pause vsnd_files sounds/ui/pano_ui_aÒ @_01.'  è BDisaë ^base 7 ¬menu_close; AffirmLgl  <_lg4 Rollover 4 r 3 nClick 0  sc2  _c 4 şToggleOption pitch A t% Calogÿ ïSelectPositiveŒ ! K 7 ANega7  oubMenuF "uboH 2 oReturn£r ; †CraftingË8 ócombine_machines_c- 'H +K ?disN 
+M L iJ ­H oDeniedN d5 U ÷DossierUI.Line01N   p_text_l[ 8 28 28 38 38 _Intro­ 	i! ³ 
+C 2C 2C 3C É ïMissionFailureÒ 	m* "_f+ Ü V 2V 2V 3V 3ÈñeditsUI.NamesIn p±!on=0wor( ySde_ou<Äname_string E 	 cd  _n (_io	} EOut 	 B &ouˆ¡HLVR.Knock ñ HUDQuickInfo.LowHealth src1_2d event_ ¥limiter_on Zmatch  F
+ lentity4 $hi> ù³mon/warning§ — ûAmmo HudChat.Message@ CtalkÑ¸².DenyWeaponr ‘s  pnSy^	= 9 §8 4  m MoveSlot = OmoveA ?Ope² _hudon8 	CH9 "ff:  ëRMusic. m ¢/hl2_song7, øInstructor.LessonStarrbeepclear0 ŸImportant9 #226 ó temBattery.Touc…3}¥level item9 "/b4 s_pickup?Æ4KitJ 1 Èsmallmedkit1/ CVial0 BWall F
+@ “medshotno> - 	à 	. 4, ıLoopingContinueCharge< c > 2Rec1 DSuit .­ Bsuit ° 	2 ² 3 /ok3 ª 0ingÁ : 8  ·hCrate.Ì- Pammoc \_open0 	Ä1 )2  Ex#buisherCõr.Use SprayCan.Painá p0 /s e®ZFlare(wP0s/f ¦gun/impact¨õ.Materialize Doll.SqueaAóambient/creatures/teddy{ ele.AcceleÑ x ºrpg/rocket13 eIgnite ShotDown@  u4dow)0ort<Thumper. S6 ³ 	"/t+ S_dust¢	`ConsolnBtachúB_ranO %axzPhysicÓ2tal ”_box_breaf+ -p		 p
+	  	    
+>  A
+ < A  [
+ 7  	 % 3 	 ”  A    O 
+ İîÿ          REDI   (  DATA0  ²   P                    À                              Ø                         7   ,ÃÈ   particles/strider/muzzleflash_strider.vpcf source2mod_template     $           ___OverrideInputData___ BinaryBlobArg                 CompileParticle KV3 Compiler Version           IsChildResource 3VKX†(&AO¶˜.] ŞÆ              š   b     “      
   S   $ ò!_class CParticleSystemDefinition m_nBehaviorVers ğcontrolPointConfigura/ s0 ğame preview 	
 	 İîÿ

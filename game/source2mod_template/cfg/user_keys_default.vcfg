@@ -20,10 +20,11 @@
 		"t"		"+iv_moveup"
 		"v"		"+iv_movedown"
 		"`"		"toggleconsole"
+		"f"		"toggle_flashlight"
 
 		"SEMICOLON"	"inv_cycle -1"
 		"'"		"inv_cycle 1"
-		"SPACE"		"+iv_jump"
+		"SPACE"		"jumpfixed"
 		"TAB"		"toggle stats_display"
 
 		"SHIFT"		"+iv_sprint"
