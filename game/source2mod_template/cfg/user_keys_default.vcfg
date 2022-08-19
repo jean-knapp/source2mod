@@ -21,6 +21,8 @@
 		"v"		"+iv_movedown"
 		"`"		"toggleconsole"
 		"f"		"toggle_flashlight"
+		"z"		"+zoom"
+		"g"		"phys_swap"
 
 		"SEMICOLON"	"inv_cycle -1"
 		"'"		"inv_cycle 1"
