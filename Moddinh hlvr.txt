@@ -1,0 +1,14 @@
+Steps
+
+// PLAY
+Install Half-Life Alyx.
+Install SteamVR.
+
+// DEV
+Installing Workshop tools worked.
+
+Created the root folder
+Copied gameinfo.gi and gameinfo_branchspecific.gi
+Copied cfg folder.
+Create symlinks for pack01_dir and all _001 files.
+Changed title, and searchPaths for Mod and Write.
