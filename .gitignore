@@ -1,0 +1,10 @@
+
+game/source2mod_template/cfg/boot.vcfg
+game/source2mod_template/cfg/machine.vcfg
+game/source2mod_template/cfg/machine_convars.vcfg
+game/source2mod_template/cfg/user_0_slot0.vcfg
+game/source2mod_template/cfg/user_17159943_slot0.vcfg
+game/source2mod_template/cfg/user_keys_0_slot0.vcfg
+game/source2mod_template/cfg/user_keys_17159943_slot0.vcfg
+game/source2mod_template/cfg/video.txt
+*.ain
