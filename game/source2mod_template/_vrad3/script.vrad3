@@ -1,0 +1,53 @@
+// maps/cs2_test1.vmap
+
+lm_compute:
+    sceneinfo       scene_info.dat
+    lightmap_load_packing_geometry lightmap_packing_geometry.dat
+    lightmap_size   1024 1024 256
+    lightmap_load_block lightmap_info.dat $blocknum 0
+    lightmap_generate_samples_from_packing_geometry 3
+    lightmap_pathtrace 128 256 0.050
+    lightmap_directlight 4 128 0
+    lightmap_finish_block
+    lightmap_write_block $blockfile
+    done
+
+lm_combine:
+    lightmap_size   1024 1024 256
+    lightmap_load_packing_geometry lightmap_packing_geometry.dat
+    lightmap_image
+    lightmap_read_block lm_block_00000000.dat 0
+    lightmap_read_block lm_block_00000001.dat 1
+    lightmap_read_block lm_block_00000002.dat 2
+    lightmap_read_block lm_block_00000003.dat 3
+    lightmap_read_block lm_block_00000004.dat 4
+    lightmap_read_block lm_block_00000005.dat 5
+    lightmap_read_block lm_block_00000006.dat 6
+    lightmap_read_block lm_block_00000007.dat 7
+    lightmap_read_block lm_block_00000008.dat 8
+    lightmap_read_block lm_block_00000009.dat 9
+    lightmap_read_block lm_block_00000010.dat 10
+    lightmap_read_block lm_block_00000011.dat 11
+    lightmap_read_block lm_block_00000012.dat 12
+    lightmap_read_block lm_block_00000013.dat 13
+    lightmap_read_block lm_block_00000014.dat 14
+    lightmap_read_block lm_block_00000015.dat 15
+    lightmap_image_dilate_over_invalid
+    lightmap_image_write_normal         normal.exr
+    lightmap_image_write_tangent        tangent.exr
+    lightmap_image_write_sh_irradiance      sh_irradiance_noisy.exr 
+    lightmap_image_write_mean         lightmap_noisy.exr
+    lightmap_image_write_ao           ao_noisy.exr
+    lightmap_image_remove_fireflies
+    lightmap_image_filter_oidn
+    lightmap_image_filter_sh_oidn
+    lightmap_image_write_direct_light_indices direct_light_indices.exr 4
+    lightmap_image_write_direct_light_scalars direct_light_scalars.exr 4
+    lightmap_image_write_mean         lightmap.exr
+    lightmap_image_write_ao         ao.exr
+    lightmap_image_write_directional_radiance      shradiance_r.exr shradiance_g.exr shradiance_b.exr 
+    lightmap_image_write_sh_irradiance      sh_irradiance.exr 
+    lightmap_image_write_luxel_result_info  lightmap_luxel_result_info.dat
+    lightmap_image_write_chart_color   lightmap_chart_color.exr 128 256
+    done
+

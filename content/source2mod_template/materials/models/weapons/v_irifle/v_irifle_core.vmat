@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\weapons\v_irifle\v_irifle_core_color.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\weapons\v_irifle\v_irifle_core_selfillum.tga"
+}

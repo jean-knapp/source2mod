@@ -1,0 +1,14 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\weapons\v_models\v_portalgun\v_portalgun_glass_color.tga"
+	TextureNormal "materials\models\weapons\v_models\v_portalgun\v_portalgun_glass_normal.tga"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\weapons\v_models\v_portalgun\v_portalgun_glass_rough.tga"
+	F_TRANSLUCENT 1
+	F_ADDITIVE_BLEND 1
+	TextureTranslucency "materials\models\weapons\v_models\v_portalgun\v_portalgun_glass_trans.tga"
+}

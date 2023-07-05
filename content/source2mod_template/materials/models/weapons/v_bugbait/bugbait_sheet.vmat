@@ -1,0 +1,16 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\weapons\v_bugbait\bugbait_sheet_color.tga"
+	TextureNormal "materials\models\weapons\v_bugbait\bugbait_sheet_normal.tga"
+	TextureAmbientOcclusion "materials\models\weapons\v_bugbait\bugbait_sheet_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\weapons\v_bugbait\bugbait_sheet_rough.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\weapons\v_bugbait\bugbait_sheet_selfillum.tga"
+	g_vSelfIllumTint "[1.0 1.0 3.0 0.0]"
+}

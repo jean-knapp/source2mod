@@ -1,0 +1,47 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_parallax_occlusion.vfx"
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/models/tubes/pneumatic_tube_end_defaultmaterial_basecolor.png"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	TextureMetalness "materials/models/tubes/pneumatic_tube_end_defaultmaterial_metallic.png"
+
+	//---- Normal ----
+	TextureNormal "materials/models/tubes/pneumatic_tube_end_defaultmaterial_normal.png"
+
+	//---- Parallax ----
+	g_flHeightMapScale "0.020"
+	g_nLODThreshold "4"
+	g_nMaxSamples "32"
+	g_nMinSamples "8"
+	TextureHeight "materials/models/tubes/pneumatic_tube_end_defaultmaterial_height.png"
+
+	//---- Roughness ----
+	TextureRoughness "materials/models/tubes/pneumatic_tube_end_defaultmaterial_roughness.png"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}
